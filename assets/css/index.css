@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar {
+    background: #373a3c;
+}
+.ricomida {
+    color: #FFFFFF;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.fs-40{
+    font-size: 40px;
+}
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0px 60px;    
+    text-align: center;
+}
+.presentation-img img {
+    width: 250px;
+    height: 200px;
+}
+.presentation-content {
+    padding: 0px 5px;
+    margin: 10px 0px;
+
+}
+hr {
+    width: 250px;
+    height: 2px;
+    background-color: black;
+    opacity: 100%;
+}
+.presentation-btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.presentation-btns .btn{
+    padding: 8px;
+    background-color: #FFFFFF;
+    border: solid 1px #DDDDDD;
+
+    font-size: 13px;
+    color: #373A3C;
+}
+.carousel-indicators {
+    top: 105%;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    background-color: var(--almost-dark);
+    width: 11px;
+    height: 11px;
+}
+.carousel-indicators button:active{
+    background-color: var(--grey);
+}
+
+.tarjet {
+    gap: 9rem;
+}
+#suscribete-container {
+    background-color: #DC3545;
+}
+#suscribete-container {
+    color: #FFFFFF;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: "400";
+    font-style: normal;
+}
+.footer {
+    background: #373a3c;
+    color: #FFFFFF;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.texto {
+    color: #373A3C;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (min-width: 1200px) {
+    .presentation {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .presentation-content hr h3{
+        display: flex;
+        flex-direction: column;
+        align-items: start !important;
+        justify-content: start!important;
+        margin-left: 10px;
+        width: 430px;
+    }
+    .presentation-content h2 {
+        width: 250px;
+        text-align: justify;
+    }
+    .presentation-img img{
+        width: 580px;
+        height: 360px;
+    }
+    .presentation-btns {
+        display: flex;
+        justify-content: start;
+    }
+    .presentation-btns .btn {
+        margin: 15px 5px;
+    }
+}
+
